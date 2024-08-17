@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "menu cabecalho"
+        "menu principal"
+    ;
+    grid-template-columns: auto 1fr;
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+}
+
+.menu-lateral{
+    grid-area: menu;
+}
+
+.principal{
+    grid-area: principal;
+}
+
+
